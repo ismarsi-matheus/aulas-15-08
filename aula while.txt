@@ -1,0 +1,74 @@
+
+
+idade = 0 
+
+idade = prompt ("digite a sua idade : ")
+
+if (idade< 10 ){
+  alert ("voce é uma criança")
+}
+
+else if (idade <18){
+  alert("voce é adolecente")
+}
+else {
+  alert ("o numero que voce digitou esta fora da escala...")
+}
+
+------//-----//----
+
+num_escolhido = 0
+
+num_escolhido = prompt ("seu numero é :")
+
+if(num_escolhido<0){
+  alert ("seu numero é negativo")
+}
+
+else if(num_escolhido>0){
+  alert ("seu numero é positivo")
+}
+else {
+  alert ("o numero é igual a zero")
+}
+
+-----//------//------//
+num_escolhido = 13
+
+ num_escolhido = prompt ("qual é a sua idade ?: ")
+
+if(num_escolhido>18){
+  alert("voce é maior de idade")
+}
+
+else if (num_escolhido<18){
+  alert("voce é menor de idade")
+}
+
+-----//-------//--------
+
+num_escolhido = 2 
+
+num_escolhido = prompt ("qual é o seu numero?: ")
+
+if(num_escolhido % 2 == 0){
+  alert("seu numro é par ")
+}
+else if (num_escolhido %2 != 0){
+  alert("seu numero é impar")
+}
+
+
+
+//Soma os numeros do 1 ate o 100
+numero = 1
+soma = 0
+
+while (numero <= 100) {
+  resultado = soma += numero
+  numero++
+}
+
+alert ("o resultado da soma do 1 ate 100 é: "+ resultado)
+
+
